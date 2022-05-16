@@ -19,4 +19,4 @@ module list
 gzip -d /home/sali9490/genome_analysis/data/raw_data/reference_genome/GCF_009734005.1_ASM973400v2_genomic.fna.gz
 makeblastdb -in /home/sali9490/genome_analysis/data/raw_data/reference_genome/GCF_009734005.1_ASM973400v2_genomic.fna -out /home/sali9490/genome_analysis/data/raw_data/reference_genome/e_faecium_db -dbtype nucl
 
-blastn -db /home/sali9490/genome_analysis/data/raw_data/reference_genome/e_faecium_db -num_threads 4 -query /home/sali9490/genome_analysis/analyses/PacBio/01_genome_assembly/pacbio_assembly.contigs.fasta -out /home/sali9490/genome_analysis/analyses/PacBio/blast_e_faecium
+blastn -db /home/sali9490/genome_analysis/data/raw_data/reference_genome/e_faecium_db -num_threads 4 -query /home/sali9490/genome_analysis/analyses/PacBio/01_genome_assembly/pacbio_assembly.contigs.fasta -out /home/sali9490/genome_analysis/analyses/PacBio/04_homology_search/new_blast_e_faecium -outfmt 6
