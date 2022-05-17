@@ -1,5 +1,5 @@
 ## genome_analysis
-The analyses (submitted as batch jobs) during this genome analysis project was run in the following order:
+The analyses performed during this genome analysis project was run in the following order:
 
 1. genome_analysis/code/PacBio/1_genome_assembly.sh
 2. genome_analysis/code/Illumina/1_fastqc_raw.sh
